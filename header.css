@@ -1,0 +1,29 @@
+.wrapper {
+    padding-top: 10px;
+}
+
+.menu-area {
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+    background: #262626;
+    padding: 10px 0;
+    z-index: 1;
+}
+
+.menu-area li {
+    list-style: none;
+    display: block;
+}
+
+.menu-area a {
+    color: #fff;
+    text-decoration: none;
+    z-index: 1;
+    line-height: 30 px
+    font-size: 16px;
+    padding: 0 25px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
