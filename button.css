@@ -1,6 +1,6 @@
-.button {
+#button {
     background-color: #3386C0;
-    width: 200px;
+    width: 600px;
     padding: 12px;
     text-align: center;
     border-radius: 5px;
@@ -9,7 +9,7 @@
 }
 
 .button:hover {
-    border-color:#3386C0;
+    border-color:#3386C0
 }
 
 #button {
