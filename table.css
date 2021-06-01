@@ -1,0 +1,38 @@
+.table {
+    margin: 30px;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    padding: 10px;
+    margin: 10px;
+}
+
+.row-1 {
+    border-bottom: 1px solid black;
+}
+
+.row-2 {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.row-3 {
+    border-top: 1px solid black;
+}
+
+.column-1 {
+    border-right: 1px solid black;
+}
+
+.column-2 {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.column-3 {
+    border-right: 1px solid black;
+}
