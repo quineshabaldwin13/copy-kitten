@@ -9,19 +9,35 @@
     <link href="./header.css" rel="stylesheet" type="text/css">
     <link href="./table.css" rel="stylesheet" type="text/css">
   </head>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 60px;
+    } 
+    
+    li a {
+      display: block;
+    }
+    </style>
   <body>
     
     <div>
-      <a href="#" id="button">It's a cool 3D button!</a>
+      <a href="#" id="button">It's a Cool 3D Button!</a>
     </div>
 
     <hr>
 
-    <ul>
-      <li class="header-link"><a href="index.html">Portfolio</a></li>
-      <li class="header-link"><a href="about.html">About</a></li>
-      <li class="header-link"><a href="contact.html">Contact</a></li>
-    </ul>
+    <div class="wrapper">
+      <nav>
+          <ul class="menu-area">
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+      </nav>
+    </div>
 
     <hr>
 
